@@ -143,19 +143,3 @@ def NLP_LSTM_Attention(data, nb_epoch):
 
 # data = tokenize(data)
 NLP_LSTM_Attention(data, 20)
-
-# LSTM:
-# time = 13 hr
-# accuracy = 0.91
-
-# LSTM_attention_hou:
-# time = 14 hr
-# accuracy = 0.87
-# recall = 0.95
-# precision = 0.89
-
-# LSTM_attention_wuyi:
-# time: 14 hr
-# accuracy: 0.87
-# recall: 0.95
-# precision = 0.88
